@@ -154,11 +154,56 @@ By running the script, wou will find the two squares on the display. Half is sho
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
-**\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**\*\*\*1. Explain your design\*\*\*** 
+**Purpose:** The design is for a network of Raspberry Pis equipped with microphones, distributed across different locations. This system is intended to listen for specific keywords or phrases. It can serve various purposes, like monitoring for security keywords in a sensitive area, detecting specific topics in a research setting, or even for interactive art installations.
 
-**\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+**Why It's Useful:** This kind of system can be invaluable in scenarios where real-time monitoring of certain keywords is necessary. For instance, in a security context, it could listen for words like "help" or "emergency." In a business setting, it might monitor customer feedback or mentions of specific products.
 
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+
+**\*\*\*2. Diagram the architecture of the system.\*\*\***   
+
+
+**Components:**  
+Raspberry Pi Units: These are the core of the system, each equipped with a microphone and placed in various locations.  
+Central Control System: This is where the data from all Raspberry Pis is collected and processed. It could be a server or another Raspberry Pi.  
+
+**Process Flow:**  
+Input: Audio input from the environment is captured by microphones attached to each Raspberry Pi.  
+
+**Computation:**  
+Local Processing: Each Raspberry Pi processes the audio to detect the specific keywords.  
+Central Processing: The central control system receives alerts from each Raspberry Pi when keywords are detected.  
+
+**Output:**  
+Local Output: Each Raspberry Pi might give a local indication (like a light) when it detects a keyword.  
+Central Output: The central control system logs the alerts, potentially triggering a response or notification.  
+
+**Connections:**  
+Raspberry Pis are connected to the central control system via a network (Wi-Fi or Ethernet).  
+The central control system may be connected to a broader network for remote monitoring or notifications.  
+
+
+
+**\*\*\*3. Build a working prototype of the system.\*\*\***   
+
+**Steps:**  
+Set up the Raspberry Pis with microphones and install speech recognition software.  
+Program each Pi to detect certain keywords and send an alert to the central system when these are detected.  
+Establish a network connection for communication between the Raspberry Pis and the central control system.  
+Develop a user interface for the central control system to monitor alerts and possibly interact with the system.  
+
+**User Interface Considerations:**    
+The Raspberry Pis themselves don't need a direct user interface since they operate passively.    
+The central control system should have an intuitive interface for monitoring and managing alerts.    
+Indicators on the Raspberry Pis (like LEDs) could signal when they are active or have detected a keyword, providing some level of interaction for those in their vicinity.    
+
+**Testing and Refinement:**
+Test the system in various environments to ensure the Raspberry Pis accurately detect the keywords and successfully communicate with the central system.  
+Adjust sensitivity and filtering to reduce false positives and negatives.  
+Ensure the system's user interface on the central control is clear and informative.  
+
+
+
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
