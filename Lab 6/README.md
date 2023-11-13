@@ -154,13 +154,16 @@ By running the script, wou will find the two squares on the display. Half is sho
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
-**\*\*\*1. Explain your design\*\*\*** 
-**Purpose:** The design is for a network of Raspberry Pis equipped with microphones, distributed across different locations. This system is intended to listen for specific keywords or phrases. It can serve various purposes, like monitoring for security keywords in a sensitive area, detecting specific topics in a research setting, or even for interactive art installations.
+**\*\*\*1. Explain your design\*\*\***     
 
-**Why It's Useful:** This kind of system can be invaluable in scenarios where real-time monitoring of certain keywords is necessary. For instance, in a security context, it could listen for words like "help" or "emergency." In a business setting, it might monitor customer feedback or mentions of specific products.
+**Purpose:**   
+The design is for a network of Raspberry Pis equipped with microphones, distributed across different locations. This system is intended to listen for specific keywords or phrases. It can serve various purposes, like monitoring for security keywords in a sensitive area, detecting specific topics in a research setting, or even for interactive art installations.
+
+**Why It's Useful:**     
+This kind of system can be invaluable in scenarios where real-time monitoring of certain keywords is necessary. For instance, in a security context, it could listen for words like "help" or "emergency." In a business setting, it might monitor customer feedback or mentions of specific products.
 
 
-**\*\*\*2. Diagram the architecture of the system.\*\*\***   
+**\*\*\*2. Diagram the architecture of the system.\*\*\***      
 
 
 **Components:**  
@@ -184,7 +187,7 @@ The central control system may be connected to a broader network for remote moni
 
 
 
-**\*\*\*3. Build a working prototype of the system.\*\*\***   
+**\*\*\*3. Build a working prototype of the system.\*\*\***     
 
 **Steps:**  
 Set up the Raspberry Pis with microphones and install speech recognition software.  
