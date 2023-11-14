@@ -94,7 +94,17 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 <img width="890" alt="Screen Shot 2022-10-30 at 10 47 52 AM" src="https://user-images.githubusercontent.com/24699361/198885135-a1d38d17-a78f-4bb2-91c7-17d014c3a0bd.png">
 
 
+
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+![Security System](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/af299139-65e8-46a0-a45f-2bd1b68288b3)
+
+![Keypad to control remote servo](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/3fa5109e-311a-42ad-b19e-8077e0e09ba7)
+
+![Automatic sump pump control - pi in a basement w_ capacitance sensor sends message to pi w_ sump pump control servo attached to it when water level reaches certain height](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/20210346-fcb1-4442-bb5e-24297c27a54f)
+
+![Color Sensor](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/9f90072e-421f-4589-b37d-db25767e78e1)
+
+![Gossip Tracker](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/660ab426-53cc-4355-be7c-a7a5afb83e21)
 
 ### Part C
 ### Streaming a Sensor
@@ -116,13 +126,16 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+<img src='https://github.com/bensetel/Interactive-Lab-Hub/blob/Fall2023/Lab%206/imgs/IMG_2308.jpeg'>
+<img src='https://github.com/bensetel/Interactive-Lab-Hub/blob/Fall2023/Lab%206/imgs/IMG_2309.jpeg'>
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
 video:
 
-
 https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/a710c57c-e0a1-451f-ba6a-06b7af899a0f
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/805b906e-7081-468e-9bd3-a027aa745b63
 
 
 
