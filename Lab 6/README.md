@@ -232,5 +232,9 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/22ede9b4-7280-4844-a58c-1b1457369398
+
+
+
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
