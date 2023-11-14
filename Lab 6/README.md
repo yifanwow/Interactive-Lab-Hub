@@ -133,8 +133,6 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 video:
 
-https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/a710c57c-e0a1-451f-ba6a-06b7af899a0f
-
 https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/805b906e-7081-468e-9bd3-a027aa745b63
 
 
@@ -168,6 +166,10 @@ By running the script, wou will find the two squares on the display. Half is sho
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+Answer:
+In order to get our colorreader.py script to correctly display the color, we had to modify color.py to include the alpha value in the message sent to the broker. After that, we created colorreader.py to read any messages sent to IDD/colors, parsed it into ints, and then converted it into RGB using the same math in color.py, and finally displaying this color to the screen.
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/a710c57c-e0a1-451f-ba6a-06b7af899a0f
 
 ### Part E
 ### Make it your own
