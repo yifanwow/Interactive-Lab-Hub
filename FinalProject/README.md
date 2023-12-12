@@ -45,3 +45,14 @@ And with this driver, this is where we assigned each servo motor:
 | 12 | Right Shoulder |
 | 13 | Right Elbow |
 | 14 | Right Hand |
+
+### POST
+
+Process:
+![b6f2106e6f7d5c91f155fdd76238b3c](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/a4446f98-367d-4cb7-8c8f-ce5addfbfae4)
+![d2ffba73b0be27c9c078dc208cbd60b](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/382f2229-e6dd-430f-a52b-fe33231c9cb8)
+![55c7f348d5bed20074800b228a70e3b](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/759700f1-8d93-4b29-8f45-11b15fd19634)
+![ada757237bc4046b347b3a7564d28f7](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/72a92430-30c7-40e4-b5b2-89f69fc2fbb3)
+
+
+
